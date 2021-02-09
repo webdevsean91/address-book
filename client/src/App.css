@@ -1,0 +1,22 @@
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 5vmin);
+  color: rgb(8, 8, 8);
+}
+.navbar {
+  text-align: right;
+}
+
+body {
+  background-image: url("./images/stock1.jpg");
+  background-color: #2da6f7bd;
+  background-position: center;
+  background-size: cover;
+}
+
+.table {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
