@@ -14,7 +14,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 //mogo URI to connect to my database
-mongoose.connect('mongodb+srv://Sean1991:SeAn131201151@sean-hyperiondev-i88se.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://', { useNewUrlParser: true });
 const connection = mongoose.connection;
 
 // Once the connection is established, callback
